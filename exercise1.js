@@ -1,6 +1,7 @@
 function foo() {
-    "use strict";
+    //"use strict";
     var bar;
+    quux = 'a global value';
 
     function zip() {
         var quux;
