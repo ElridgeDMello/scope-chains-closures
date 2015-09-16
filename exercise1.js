@@ -5,6 +5,9 @@ function foo() {
 
     function zip() {
         var quux;
+        bar = true;
     }
+
+    return zip;
 
 }
